@@ -117,7 +117,7 @@ const start = async()=>{
              bot.sendPhoto(chatId, photos[itemPhoto])
         }
         else if (msg.text == 'Защита от пиздабола'){
-            await bot.sendMessage(chatId,"\xF0\x9F\x98\x84",{
+            await bot.sendMessage(chatId,"ХУХ",{
                 reply_markup:{
                     keyboard:[
                         ['Показать все обещания'],
@@ -150,7 +150,7 @@ const start = async()=>{
         await  bot.sendMessage(chatId,'Пиши')
 
         }
-        else if (!(msg.text == 'Добавить обещание')&&!(msg.text == 'Защита от пиздабола')&&!(msg.text == 'My sexy photo')&&!(msg.text == 'Назад')&&!(msg.text == 'Показать все обещания')&&!(msg.text == 'Подними настроение')&&!(msg.text == 'Комплимент')){
+        else if (!(msg.text == 'Добавить обещание')&&!(msg.text == 'Защита от пиздабола')&&!(msg.text == '/start')&&!(msg.text == 'My sexy photo')&&!(msg.text == 'Назад')&&!(msg.text == 'Показать все обещания')&&!(msg.text == 'Подними настроение')&&!(msg.text == 'Комплимент')){
             promises.push(msg.text)
                 text = promises.join (',')
         }
