@@ -117,7 +117,7 @@ const start = async()=>{
              bot.sendPhoto(chatId, photos[itemPhoto])
         }
         else if (msg.text == 'Защита от пиздабола'){
-            await bot.sendMessage(chatId,"\xF0\x9F\x98\x84",{
+            await bot.sendMessage(chatId,"ХУХ",{
                 reply_markup:{
                     keyboard:[
                         ['Показать все обещания'],
